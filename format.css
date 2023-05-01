@@ -1,0 +1,13 @@
+.card {
+    max-width: 500px;
+    cursor: pointer;
+  }
+
+.section{
+  margin: 10rem 50rem;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
