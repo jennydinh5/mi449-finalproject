@@ -29,7 +29,7 @@ async function fetchProfile(token: string): Promise<any> {
 }
 
 async function fetchArtist(token: string): Promise<any> {
-    const result = await fetch("https://api.spotify.com/v1/artists/5JZ7CnR6gTvEMKX4g70Amv", {
+    const result = await fetch("https://api.spotify.com/v1/artists/3ApUX1o6oSz321MMECyIYd", {
        method: "GET", headers: { Authorization: `Bearer ${token}` }
    });
 
