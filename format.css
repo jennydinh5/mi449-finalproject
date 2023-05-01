@@ -11,3 +11,8 @@
   flex-direction: column;
   height: 100%;
 }
+
+
+#profile{
+  border-top: 3px dotted #ccc;
+}
