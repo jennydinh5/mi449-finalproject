@@ -60,7 +60,7 @@ function populatedUI(artist: any) {
         artistImage.src = artist.images[0].url;
         document.getElementById("avatars")!.setAttribute("src", artistImage.src);
    }
-    document.getElementById("genre")!.innerText = artist.genre;
+    document.getElementById("genre")!.innerText = artist.genres;
     document.getElementById("popularity")!.innerText = artist.popularity;
     document.getElementById("artistUri")!.innerText = artist.uri;
     document.getElementById("artistUri")!.setAttribute("href", artist.external_urls.spotify);
