@@ -12,16 +12,12 @@
   height: 100%;
 }
 
-
-#profile{
-  border-top: 1px dotted #ccc;
-}
-
 #signForm {
   height: 10vw;
   width: 100%;
   margin: auto;
   text-align: center;
+  border-top: 1px dotted #ccc;
 }
 
 .form-control {
@@ -35,10 +31,11 @@
 
 button {
   display: inline-block;
-  background-color: #172432;
+  background-color: grey;
   border: none;
   color: #ddd;
   padding: 10px 20px;
   border-radius: 5px;
 }
+
 
