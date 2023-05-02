@@ -14,5 +14,31 @@
 
 
 #profile{
-  border-top: 3px dotted #ccc;
+  border-top: 1px dotted #ccc;
 }
+
+#signForm {
+  height: 10vw;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.form-control {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #172432;
+}
+
+
+button {
+  display: inline-block;
+  background-color: #172432;
+  border: none;
+  color: #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
